@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_natural_beauty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suruthi.naturalremedies.NaturalBeauty">
+
+    <ScrollView
+    android:layout_width="84dp"
+    android:layout_height="84dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="33dp"
+    android:layout_marginStart="33dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+</ScrollView>
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/hairfall"
+        android:id="@+id/imageView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+    android:text="HAIRFALL"
+    android:layout_width="204dp"
+    android:layout_height="84dp"
+    android:id="@+id/button9"
+    android:textSize="24sp"
+    android:onClick="ha1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView14"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/pimples"
+        android:id="@+id/imageView15"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+    android:text="PIMPLES"
+    android:layout_width="204dp"
+    android:layout_height="84dp"
+    android:id="@+id/button11"
+        android:textSize="24sp"
+    android:onClick="pm1"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_alignRight="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9" />
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/drylips"
+        android:id="@+id/imageView16"
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <Button
+    android:text="DRY LIPS"
+    android:layout_width="204dp"
+    android:layout_height="84dp"
+        android:id="@+id/button12"
+        android:onClick="d1"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11" />
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/darkcircles"
+        android:id="@+id/imageView19"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DARK CIRCLES"
+        android:layout_width="204dp"
+        android:layout_height="84dp"
+        android:id="@+id/imageView9"
+        android:textSize="24sp"
+        android:onClick="da1"
+        android:layout_below="@+id/imageView16"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

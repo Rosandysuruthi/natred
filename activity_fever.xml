@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fever"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.suruthi.naturalremedies.Fever">
+
+    <ScrollView
+        android:layout_width="204dp"
+        android:layout_height="204dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="404dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/fever"
+        android:id="@+id/imageView2"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/scrollView2"
+        android:layout_alignEnd="@+id/scrollView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:text="FEVER"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/textView2"
+        android:text="Sprinkle cayenne pepper on your foods when you have a fever. One of its main components is capsaicin, the alarmingly hot ingredient that's found in hot peppers. Drink a cup of hot giger tea"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+</RelativeLayout>
